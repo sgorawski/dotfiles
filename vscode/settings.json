@@ -1,0 +1,28 @@
+{
+    "workbench.colorCustomizations": 
+    {
+        "statusBar.background" : "#303030",
+        "statusBar.noFolderBackground" : "#222225",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "workbench.startupEditor": "none",
+    "editor.tabSize": 8,
+    "editor.insertSpaces": false,
+    "files.autoSave": "onFocusChange",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.renderIndentGuides": false,
+    "editor.fontLigatures": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideTabs": false,
+    "zenMode.hideLineNumbers": false,
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+}
