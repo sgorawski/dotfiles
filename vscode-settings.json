@@ -25,4 +25,5 @@
     "zenMode.hideLineNumbers": false,
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
+    "explorer.confirmDelete": false,
 }
