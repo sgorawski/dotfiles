@@ -6,6 +6,7 @@
 #  - remove user segment
 #  - make virtualenv segment stand out (white bg)
 #  - display only last directory in path segment
+#  - remove Git branch symbol
 #
 # ***
 #
@@ -101,7 +102,6 @@ prompt_git() {
   local PL_BRANCH_CHAR
   () {
     local LC_ALL="" LC_CTYPE="en_US.UTF-8"
-    PL_BRANCH_CHAR=$'\ue0a0'         # 
   }
   local ref dirty mode repo_path
 
@@ -134,7 +134,7 @@ prompt_git() {
     zstyle ':vcs_info:*' formats ' %u%c'
     zstyle ':vcs_info:*' actionformats ' %u%c'
     vcs_info
-    echo -n "${ref/refs\/heads\//$PL_BRANCH_CHAR }${vcs_info_msg_0_%% }${mode}"
+    echo -n "${ref/refs\/heads\//}${vcs_info_msg_0_%% }${mode}"
   fi
 }
 
