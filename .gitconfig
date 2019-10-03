@@ -1,3 +1,6 @@
 [user]
 name = Slawomir Gorawski
 email = sgorawski@gmail.com
+
+[pager]
+branch = false
