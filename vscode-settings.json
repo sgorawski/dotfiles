@@ -26,4 +26,5 @@
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
     "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
 }
