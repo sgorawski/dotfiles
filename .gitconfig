@@ -4,3 +4,9 @@ email = sgorawski@gmail.com
 
 [pager]
 branch = false
+
+[core]
+pager = "diff-so-fancy | less --tabs 8 -RFX"
+
+[diff-so-fancy]
+rulerWidth = 47
