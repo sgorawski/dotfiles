@@ -27,4 +27,6 @@
     "window.titleBarStyle": "native",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 }
