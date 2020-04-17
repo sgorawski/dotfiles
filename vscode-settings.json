@@ -1,6 +1,5 @@
 {
-    "workbench.colorCustomizations": 
-    {
+    "workbench.colorCustomizations": {
         "statusBar.background" : "#303030",
         "statusBar.noFolderBackground" : "#222225",
         "statusBar.debuggingBackground": "#511f1f"
@@ -13,11 +12,10 @@
     "files.autoSave": "onFocusChange",
     "editor.copyWithSyntaxHighlighting": false,
     "editor.renderIndentGuides": false,
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
     "zenMode.hideActivityBar": false,
     "zenMode.hideStatusBar": false,
