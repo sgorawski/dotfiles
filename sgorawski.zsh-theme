@@ -7,6 +7,7 @@
 #  - make virtualenv segment stand out (white bg)
 #  - display only last directory in path segment
 #  - remove Git branch symbol
+#  - add AWS Vault session segment
 #
 # ***
 #
@@ -223,11 +224,18 @@ prompt_status() {
   [[ -n "$symbols" ]] && prompt_segment black default "$symbols"
 }
 
+prompt_aws_vault() {
+  local vault_segment
+  vault_segment="$(prompt_aws_vault_segment)"
+  [[ $vault_segment != '' ]] && prompt_segment cyan black "$vault_segment"
+}
+
 ## Main prompt
 build_prompt() {
   RETVAL=$?
   prompt_status
   prompt_virtualenv
+  prompt_aws_vault
   # prompt_context
   prompt_dir
   prompt_git
